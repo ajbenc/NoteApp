@@ -1,0 +1,6 @@
+
+.blur-content {
+    filter: blur(6px);
+    pointer-events: none;
+    user-select: none;
+}
