@@ -1,0 +1,1 @@
+## NoteApp Created as an excersize for fullstackopen part 4 of the plan, using react + js, mongodb as database and express backend. Used Token authentication for registration and login of the users and bcrypt for the password encryption and jsonwebtoken for the registration and auth of the users.
