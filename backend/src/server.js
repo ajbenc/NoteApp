@@ -6,7 +6,7 @@ import authRoutes from './routes/authRoutes.js';
 import noteRoutes from './routes/noteRoutes.js';
 import rateLimit from 'express-rate-limit';
 import helmet from 'helmet';
-import mongoSanitize from 'express-mongo-sanitize';
+
 
 // Initialize environment variables
 dotenv.config();
@@ -14,8 +14,6 @@ dotenv.config();
 // Create Express app
 const app = express();
 
-// Using sanitize
-app.use(mongoSanitize());
 
 //Security middleware
 app.use(helmet());
